@@ -5,6 +5,10 @@ html {
 
 }
 
+body {
+    margin:0;
+}
+
 main {
     margin: 0 auto;
     max-width: 1500px;
@@ -32,9 +36,153 @@ main {
 .header-nav-link {
     font-weight: 600;
     padding: 10px 30px;
+    padding-bottom: 0;
     margin:0 8px;
     color: rgb(0, 0, 0);
     text-decoration: none;
     
 
+}
+
+.home-banner {
+    margin: 0;
+    background-image: url("jj_images/onecoffeeatatime.jpg");
+   width: 100%;
+    height: 600px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: block;    
+}
+
+.home-h1 {
+    
+    margin: 0 auto;
+    max-width:800px;
+    padding-top:60px;
+    text-align: center;
+    font-weight: bolder;
+ 
+}
+
+.home-bio {
+    margin: 0 auto;
+    max-width:800px;
+    padding-top:20px;
+    text-align: center;
+  
+
+}
+
+.home-button {
+    color: rgb(38, 37, 59);
+    margin-top: 0;
+    padding:8px 10px;
+    text-decoration: none;
+    background-color:yellow;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.home-container {
+    display:flex;
+    gap: 20px;
+    background-color:#e86a92 ;
+    padding:40px;
+    margin: 60px auto ;
+    border-style: block;
+    border-radius: 40px;
+    font-weight: bolder;
+}
+
+.home-column {
+    
+    flex:1;
+    min-width: 200px;
+    padding:20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+
+}
+
+.home-image {
+
+    max-height:145px;
+    max-width: 100%;
+   
+}
+
+.footer {
+    margin:0;
+    background-color: rgb(38, 37, 59);
+    padding:30px;
+    color:antiquewhite;
+    font-weight: 800;
+   
+}
+
+.footer-nav {
+    list-style-type: none;
+}
+
+.footer-link {
+ text-decoration: none;
+ color: yellow;
+
+}
+
+
+
+
+.aboutme-banner {
+    margin: 0;
+    background-image: url("jj_images/whoami.png");
+   width: auto;
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: center;
+    display: block;   
+}
+
+.aboutus-image {
+     margin: 0;
+    background-image: url("jj_images/whoami.png");
+    width: auto;
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: center;
+    display: block;   
+}
+
+.about-container {
+    display:flex;
+    gap: 20px;
+    padding:40px;
+    margin: 60px auto ;
+    border-style: block;
+    border-radius: 40px;
+    font-weight: bolder;
+
+}
+
+
+.about-column1 {
+      flex:1;
+      background-color: #e86a92;
+      color: antiquewhite;
+    min-width: 200px;
+    padding:40px;
+    border-radius: 15px;
+    text-align: center;
+    
 }
