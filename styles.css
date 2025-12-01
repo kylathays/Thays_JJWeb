@@ -43,6 +43,10 @@ main {
     
 
 }
+.header-nav-link:hover {
+   color: #e86a92;
+
+}
 
 .home-banner {
     margin: 0;
@@ -76,11 +80,20 @@ main {
 }
 
 .home-button {
-    color: rgb(38, 37, 59);
+    color: rgb(255, 255, 255);
     margin-top: 0;
     padding:8px 10px;
     text-decoration: none;
-    background-color:yellow;
+    background-color: #e86a92;
+    border-radius: 15px;
+    text-align: center;
+}
+.home-button:hover {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    padding:8px 10px;
+    text-decoration: none;
+    background-color: #f9da29;
     border-radius: 15px;
     text-align: center;
 }
@@ -138,10 +151,14 @@ main {
 
 
 
+
+
+
+
 .aboutme-banner {
     margin: 0;
     background-image: url("jj_images/whoami.png");
-   width: auto;
+    width: auto;
     height: 800px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -177,12 +194,66 @@ main {
 
 
 .about-column1 {
-      flex:1;
-      background-color: #e86a92;
-      color: antiquewhite;
+    flex:1;
+    background-color: #e86a92;
+    color: antiquewhite;
     min-width: 200px;
     padding:40px;
     border-radius: 15px;
-    text-align: center;
+    text-align:justify;
     
+}
+
+
+
+
+
+.recipe-container {
+    margin-top: 40px;
+     display:flex; 
+}
+
+.recipe-column {
+    flex:1;
+    padding: 20px;  
+}
+
+.recipe-image {
+     width:100%;
+     height: auto;
+}
+
+.product-container {
+    margin-top: 40px;
+     display:flex; 
+}
+.product-column {
+    padding: 20px; 
+    text-align: center;
+}
+
+.product-image {
+    max-width:800px;
+    padding: 10px;
+    max-height: 450px;
+}
+
+.recipe-image:hover {
+    opacity: 70%;
+}
+.need-materials {
+     text-align: center;
+}
+
+.recipe-button-column {
+    flex:1;
+    min-width: 400px;
+    padding:20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    
+
 }
