@@ -16,6 +16,7 @@ main {
 .site-header {
     display: flex;
     justify-content: space-between;
+    background-color: white;
 
   
 
@@ -309,6 +310,40 @@ text-decoration: underline;
     margin: 0 auto;  
 }
 
+.recommend-container {
+    display:flex;
+    padding:40px;
+    font-weight: bolder;
+    max-width:1000px;
+    margin: 0 auto;
+ 
+}
+
+.recommend-column {
+    flex:1;
+    padding:20px;
+    font-size: larger;
+
+}
+
+.material-nav {
+    list-style-type:decimal;
+
+}
+
+.material-link {
+    text-decoration:none;
+    color:#e86a92;
+
+}
+
+.material-link:hover {
+    color:#f9da29;
+}
+
+
+
+
 
 
 
@@ -369,6 +404,8 @@ text-decoration: underline;
 .citation-container {
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 
